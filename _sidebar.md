@@ -1,9 +1,10 @@
 - [Como usar](docs/como-usar.md)
-- [Como escrever uma entrada](docs/como-escrever.md)
+- [Como escrever uma entrada](docs/como-escrever-o-meu-diario.md)
 - [Perguntas por fase](docs/perguntas.md)
 - [Avaliação na disciplina](docs/avaliacao.md)
 - [GitHub Pages no projeto da disciplina](docs/github-pages.md)
 - Minhas entradas
+  - [Formação de equipe (16/09/2026)](blog/2026-09-16-formacao-equipe.md)
   - [Exemplo — Formação de equipe](blog/2027-03-10-formacao-de-equipe-exemplo.md)
 
 <!--
