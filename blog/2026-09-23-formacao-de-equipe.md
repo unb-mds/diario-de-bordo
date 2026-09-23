@@ -1,6 +1,6 @@
 ---
 title: "Formação de equipe - 23/09/2026"
-authors: "Kauã Mendes"
+authors: "Mendezalv"
 tags: [formacao-equipe]
 date: 2026-09-23
 ---
