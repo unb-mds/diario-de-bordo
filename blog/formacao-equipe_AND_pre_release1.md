@@ -1,8 +1,6 @@
 ---
-title: "Formação de equipe — 16/09/2026"
-authors: [explorador-mds]
+title: "Formação de equipe"
 tags: [formacao-equipe]
-date: 2026-09-16
 ---
 
 ## 1. Descreva como está sendo o processo de organização da sua equipe até agora — papéis, expectativas, primeiras decisões.
@@ -26,3 +24,28 @@ O banco de dados é central no meu aprendizado nesta fase. Ele impacta o projeto
 Além de dominar a sintaxe SQL e saber fazer pesquisas, envolve muito também saber modelar um banco de dados. Obviamente que eu não serei capaz de modelar como um profissional, mas das próximas vezes que eu tiver que modelar, eu já terei uma noção maior.
 
 O Docker se relaciona com tudo isso porque, graças a ele, eu não vou precisar instalar, por exemplo, a versão certa de Python no meu PC para conseguir rodar o código. Isso me permite focar no aprendizado em vez de gastar tempo com configuração de ambiente.
+
+
+---
+title: "Pré release 1"
+tags: [pré_release1]
+---
+
+## 1. Conte como tem sido o ritmo de trabalho da sua equipe nesta fase de preparação para a primeira entrega.
+
+O ritmo de trabalho da equipe tem sido meio irregular. Acho que a gente pegou muito leve nas primeiras semanas e acabou tendo que correr atrás do tempo perdido nessas duas últimas.
+
+O ritmo atual não é sustentável porque é pesado demais. O ritmo anterior não era sustentável porque era leve demais. A gente está nessa oscilação entre dois extremos.
+
+## 2. Descreva uma situação recente de colaboração ou feedback, positiva ou difícil, que marcou sua semana.
+
+Quando um amigo meu foi fazer a revisão da minha PR a respeito da modelagem do banco, ele me disse que tinham certas coisas a mudar, que não faziam muito sentido de acordo com a ideia original do projeto. Ele me explicou onde e por que que não fazia sentido. Como a lógica dele era coerente, eu levei numa boa e remodelei até que ficasse adequado.
+
+Não mudou nada na minha forma de trabalhar imediatamente, mas percebi que tenho que ficar mais atento aos requisitos do projeto, e não na ideia de como o banco deve funcionar na minha cabeça. Esse feedback foi importante para reorientar meu foco.
+
+## 3. Que responsabilidades técnicas você tem assumido, e como você tem lidado com elas?
+
+Estou assumindo a responsabilidade de cuidar do banco de dados, tanto da modelagem quanto da parte de fazer as pesquisas funcionarem.
+
+Estou conseguindo tranquilo, ainda mais por estar fazendo a matéria Banco de Dados 1. Mas, sempre que necessário, peço ajuda aos meus colegas para não tentar resolver tudo sozinho.
+
