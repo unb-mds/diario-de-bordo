@@ -15,12 +15,14 @@ Essa sequência de eventos me mostrou com muita clareza que tentar "acelerar" as
 
 ## 2. Que sensações ou pensamentos você tem tido em relação ao início desta disciplina e ao projeto que vocês vão desenvolver?
 
-O início de MDS tem sido marcado por bastante receio e ansiedade. O principal motivo é a constatação da imensa demanda de tempo que a disciplina exige. Eu imaginava que a maior parte da dedicação seria gasta programando, mas percebi que, especialmente nesta fase inicial, quase todo o tempo e energia são consumidos por pesquisas, reuniões de alinhamento e documentação.
+Há algo que me atrai nesta disciplina: ela está me forçando a estudar bastante coisa que eu não estudava antes — docker, SQL, requisitos e arquitetura.
 
-Para intensificar essa insegurança, a única linguagem em que eu já tinha alguma experiência prévia era Java, e a professora, logo de cara, barrou o seu uso no projeto sem dar muitas explicações sobre o porquê. Ter a minha única zona de conforto técnico vetada no primeiro contato aumentou muito a sensação de despreparo, já que agora terei que conciliar uma rotina pesada de pesquisas e reuniões com a necessidade de aprender uma stack totalmente nova do zero.
+Minha expectativa é sair da matéria sabendo o básico de requisitos e arquitetura pelo menos, assim como entender o básico de como um banco de dados funciona. Ficarei muito feliz se conseguir isso. Mas, sinceramente, acho meio impossível dominar completamente toda a stack em poucos meses. Essa tensão entre o que espero aprender e a realidade do tempo disponível tem marcado meu início na disciplina.
 
 ## 3. Que conhecimentos, ferramentas ou práticas você sente que já domina, e quais ainda são novidade para você neste momento?
 
-Do ponto de vista de bagagem prévia, o que eu trago são apenas noções gerais: um pouco de conhecimento básico de back-end e os conceitos fundamentais de Docker, embora longe de dominar a ferramenta a fundo. Como o Java não pôde ser utilizado, a equipe bateu o martelo na definição da stack: usaremos **Python com FastAPI** no back-end, **Node** no front-end e **PostgreSQL** para o banco de dados.
+O banco de dados é central no meu aprendizado nesta fase. Ele impacta o projeto porque é onde as informações dos professores, departamentos, matérias e reviews serão armazenados — sem ele, o projeto não existe.
 
-Como ficarei responsável pelo banco, quase tudo à minha frente é território novo. Precisarei dominar o PostgreSQL na prática, entender como conectá-lo de forma eficiente à API em FastAPI e aprender a sintaxe e as convenções do ecossistema Python. Além disso, a própria dinâmica de engenharia de software — ter que refazer protótipos após feedback, discutir arquitetura e trabalhar com branches conjuntas — é uma novidade que quebra totalmente o modelo das disciplinas de programação tradicionais. Meu foco agora é aproveitar os conceitos básicos que tenho de Docker para tentar subir o container do PostgreSQL localmente e acelerar o estudo de Python para não me tornar um gargalo na equipe.
+Além de dominar a sintaxe SQL e saber fazer pesquisas, envolve muito também saber modelar um banco de dados. Obviamente que eu não serei capaz de modelar como um profissional, mas das próximas vezes que eu tiver que modelar, eu já terei uma noção maior.
+
+O Docker se relaciona com tudo isso porque, graças a ele, eu não vou precisar instalar, por exemplo, a versão certa de Python no meu PC para conseguir rodar o código. Isso me permite focar no aprendizado em vez de gastar tempo com configuração de ambiente.
