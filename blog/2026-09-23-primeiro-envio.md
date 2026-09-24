@@ -1,0 +1,30 @@
+---
+title: "1° Registro — 23/09/2026"
+authors: vitorcoelho21
+tags: [primeiro-envio]
+date: 2026-09-23
+---
+
+## Descreva como está sendo o processo de organização da sua equipe até agora — papéis, expectativas, primeiras decisões.
+
+Logo no começo, o time dividiu o Cerradinho — uma API aberta com dados públicos da UnB — em frentes por pessoa, e eu fiquei como P1, no back-end. Sou responsável pelo scraping e pela associação de Disciplinas, Professores e Salas (RF01 a RF05), pela consulta de salas vazias (RF17), pela agenda do professor (RF18) e pelo SDK em Python (RF13). O Italo ficou com os scrapers de RU, Eventos e Editais, e o Daniel com o front-end, nas telas de consulta e no portal do desenvolvedor. Além da parte técnica, assumi o papel de Scrum Master. Também fechamos uma rotina: reunião às segundas depois da aula e às quintas às 19h, com reuniões emergenciais quando precisa e o resto resolvido por mensagem. Na parte técnica, as primeiras decisões foram de stack: FastAPI com a API versionada em `/v1`, PostgreSQL com SQLAlchemy e Alembic, Playwright e BeautifulSoup para os scrapers, Celery e Redis para agendamento e cache, e Next.js no front.
+
+Só que, na prática, separar as tarefas foi mais complicado do que parecia no papel. No começo não estava claro para todo mundo o que era responsabilidade do back, o que era do front e o que era do banco, e as dúvidas foram se acumulando a ponto de a gente precisar marcar uma reunião de última hora só para resolver isso. Nessa reunião, o que mais apareceu não foram dúvidas sobre a tarefa de cada um isoladamente, mas sobre como as áreas iam se comunicar entre si: quem entrega o quê para quem, e em que formato.
+
+Isso me mostrou que dividir o projeto por requisitos deixa claro quem faz o quê, mas não deixa claro como as partes conversam. O que eu produzo nos scrapers alimenta endpoints que as telas do Daniel vão consumir e que o meu próprio SDK vai encapsular, então qualquer mudança no formato dos dados afeta pelo menos três frentes. A reunião de emergência resolveu as dúvidas daquele momento, mas não impede que elas voltem. Como Scrum Master, quero propor que a gente defina e documente cedo, no Swagger/OpenAPI, o formato das respostas de cada endpoint antes de implementar, para que a comunicação entre as áreas esteja escrita em algum lugar e não dependa de uma reunião de última hora.
+
+## Que sensações ou pensamentos você tem tido em relação ao início desta disciplina e ao projeto que vocês vão desenvolver?
+
+Quando assumi o papel de Scrum Master, senti ao mesmo tempo empolgação e insegurança. Eu queria inspirar o grupo, conseguir coordenar o time e acompanhar de perto o desenvolvimento de cada frente, mas não sabia muito bem como fazer isso na prática. Uma coisa é querer liderar; outra é saber o que fazer numa segunda-feira depois da aula com seis pessoas, cada uma numa parte diferente do projeto.
+
+Acho que a reunião de última hora sobre a divisão de tarefas mostrou um pouco disso: as dúvidas do time sobre como as áreas se comunicavam eram exatamente o tipo de coisa que eu, como Scrum Master, deveria ter percebido antes. Isso me fez entender que acompanhar o desenvolvimento não é só perguntar "como está sua parte?", mas prestar atenção nos pontos em que o trabalho de um depende do trabalho do outro. Daqui para frente, quero usar as reuniões fixas para olhar justamente essas dependências entre as frentes, e não só o status individual de cada um.
+
+Outro pensamento que tenho tido é que ainda não caiu totalmente a ficha de que esse projeto pode ter continuidade e virar algo real, usado por outras pessoas da UnB. A cada dia que passa percebo mais que dá, sim, e fico impressionado com isso. Quero levar essa ideia para o time também, porque tratar o Cerradinho como um produto de verdade, e não só como uma entrega para nota, muda o cuidado que a gente tem com qualidade e documentação.
+
+## Que conhecimentos, ferramentas ou práticas você sente que já domina, e quais ainda são novidade para você neste momento?
+
+O que me sinto mais seguro é Python, orientação a objetos, C e lógica de programação. A base mais concreta que tenho é o Tennis Manager, um sistema de gerenciamento de circuito de tênis que fiz em Python na disciplina de OO: modelei jogadores, partidas, torneios e rankings com herança, composição e agregação, comecei no terminal, depois fiz uma interface em Tkinter e usei JSON para persistir os dados. SQL, HTML, CSS e JavaScript eu conheço só no nível básico, e Git/GitHub é algo que ainda estou desenvolvendo.
+
+Praticamente toda a stack do Cerradinho é novidade para mim: FastAPI, Playwright e BeautifulSoup, SQLAlchemy com Alembic, Celery e Redis, rate limit com slowapi. O primeiro contato de verdade foi com o scraping do SIGAA. Começaram a aparecer erros que eu não conseguia resolver de início, e em vez de ficar tentando no escuro, fui atrás de entender melhor como a ferramenta funcionava. Foi assim que consegui resolver. Isso me mostrou que, com uma tecnologia nova, parar para entender a ferramenta rende mais do que ficar testando soluções aleatórias até alguma funcionar. Quero manter essa postura com o resto da stack, priorizando o que bloqueia meus requisitos: primeiro consolidar o scraping, depois SQLAlchemy e Alembic para persistir os dados, e deixar Celery e Redis para quando a coleta já estiver estável.
+
+Uma prática que também está mudando para mim é o uso de IA. No time, usamos principalmente para revisão de código e para trechos de programação mais extensos, e tenho gostado, mas do jeito certo. Com esse projeto estou percebendo que a gente vinha usando IA de forma errada desde o começo do curso. O episódio do SIGAA tem a ver com isso: o que resolveu o problema foi eu entender a ferramenta, não receber uma resposta pronta. Quero continuar usando IA como apoio para revisar e acelerar o que eu já entendo, e não como substituto para entender o que estou fazendo.
