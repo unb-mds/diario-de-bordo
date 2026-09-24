@@ -5,6 +5,7 @@
 - [GitHub Pages no projeto da disciplina](docs/github-pages.md)
 - Minhas entradas
   - [Exemplo — Formação de equipe](blog/2027-03-10-formacao-de-equipe-exemplo.md)
+   - [Primeiro envio](blog/primeiro-envio-23-09-26.md)
 
 <!--
 Toda vez que você criar uma entrada nova em blog/ (5x no semestre, uma por

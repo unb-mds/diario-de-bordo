@@ -1,0 +1,27 @@
+{
+  "name": "diario-de-bordo",
+  "version": "1.0.0",
+  "description": "O diário de bordo é um registro pessoal e dissertativo, escrito por cada estudante ao longo do semestre, sobre a própria experiência de cursar MDS decisões da equipe, dificuldades técnicas, aprendizados, mudanças de rumo. Cada estudante mantém o seu diário em um repositório público próprio (fork deste template).Usado como instrumento de avaliação da disciplina e, também, como instrumento sobre aprendizagem experiencial em engenharia de software.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thur-sylva/diario-de-bordo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Thur-sylva/diario-de-bordo/issues"
+  },
+  "homepage": "https://github.com/Thur-sylva/diario-de-bordo#readme",
+  "devDependencies": {
+    "docsify-cli": "^5.0.0"
+  }
+}

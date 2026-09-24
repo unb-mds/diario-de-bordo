@@ -1,4 +1,4 @@
-# Pacote exportado por scripts/export-entries
+﻿# Pacote exportado por scripts/export-entries
 /export
 
 # Misc
@@ -6,3 +6,4 @@
 
 .claude
 openspec
+node_modules/
