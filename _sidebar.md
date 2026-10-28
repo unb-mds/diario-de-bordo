@@ -4,6 +4,7 @@
 - [Avaliação na disciplina](docs/avaliacao.md)
 - [GitHub Pages no projeto da disciplina](docs/github-pages.md)
 - Minhas entradas
+  - [Primeiros Passos e Ambiente Local](blog/2026-10-28-primeiros-passos-e-ambiente-local.md)
   - [Exemplo — Formação de equipe](blog/2027-03-10-formacao-de-equipe-exemplo.md)
 
 <!--
