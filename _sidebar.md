@@ -4,7 +4,9 @@
 - [Avaliação na disciplina](docs/avaliacao.md)
 - [GitHub Pages no projeto da disciplina](docs/github-pages.md)
 - Minhas entradas
-  - [Exemplo — Formação de equipe](blog/2027-03-10-formacao-de-equipe-exemplo.md)
+  - [01 — Formação de equipe e pré-Release 1](blog/2026-09-23-formacao-de-equipe-e-pre-release-1.md)
+  - [02 — Pós-Release 1](blog/2026-10-07-pos-release-1.md)
+  - [03 — Caminho para a Release 2](blog/2026-10-28-caminho-para-a-release-2.md)
 
 <!--
 Toda vez que você criar uma entrada nova em blog/ (5x no semestre, uma por

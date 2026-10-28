@@ -1,0 +1,18 @@
+---
+title: "Formação de equipe e pré-Release 1 — 23/09/2026"
+authors: Pedro Magno Rabelo Teles
+tags: [primeiro-envio]
+date: 2026-09-23
+---
+
+## 1. Descreva como está sendo o processo de organização da sua equipe até agora — papéis, expectativas, primeiras decisões.
+
+No começo, fui eu quem puxou a organização do G10, porque ninguém assumia. Em 14/08 chamei no Telegram da turma quem quisesse entrar no grupo e, em 18/08, a partir dos nomes que estavam no G10 na planilha da professora, criei o grupo do WhatsApp e mandei o convite por e-mail para os outros cinco. Na mesma noite abri a enquete dos temas. Em 26/08, quando o Ítalo perguntou quem queria ser PO ou Scrum Master, ninguém respondeu, e dois dias depois ele assumiu como Scrum Master e indicou a Jéssyca como PO. Em 12/09, faltando 16 dias para a Release 1, propus reestruturar o repositório e dividir o trabalho por frentes (dados, protótipo, arquitetura e CI, e conteúdo), e a ata de 13/09 registra que o grupo concordou. No entanto, essa divisão ficou no WhatsApp. As frentes nunca viraram issues com responsável, e eu mesmo disse que criaria as milestones das Sprints 00 a 03 e não criei. Quem criou foram o Allan e o Ítalo. Puxar a organização não basta se o combinado não vira issue, porque sem nome e prazo no GitHub cada um supõe uma coisa, e até quem propôs esquece. Daqui em diante, quero que o que for combinado em reunião vire issue atribuída no mesmo dia.
+
+## 5. Descreva uma situação recente de colaboração ou feedback, positiva ou difícil, que marcou sua semana.
+
+Em 26/09, o Ítalo mandou no grupo um zip com o MVP que ele tinha gerado com o Claude. Eu revisei esse código também com a ajuda do Claude, e apareceram problemas de segurança, de contraste das cores e a falta de testes. Pedi as correções, acrescentamos testes e um CI, e mandei de volta no grupo, também em zip. O Ítalo respondeu "acho que só adicionou o filtro de tipo", e eu respondi que ainda não tinha lido tudo. Como estava tudo num zip, ninguém conseguia ver o que tinha mudado nem por quê, e eu mesmo ainda estava entendendo o que a revisão tinha encontrado. Com isso, percebi que a revisão precisa ficar no PR, onde dá para ver cada mudança e comentar linha por linha. A partir disso, quero fazer as minhas revisões como comentário no próprio PR, depois de entender o que estou apontando.
+
+## 6. Que responsabilidades técnicas você tem assumido, e como você tem lidado com elas?
+
+Assumi três frentes nessa fase: a governança do repositório, a coleta de termos e, perto da R1, o front e a documentação técnica. A reestruturação entrou pelo PR #5, com 22 arquivos, entre eles a pasta docs/, os templates de issue e de PR, o CONTRIBUTING.md, o PROCESSO.md e o AI-USAGE.md. A planilha de termos eu criei e apresentei em 14/09, e o front entrou pelos PRs #28 e #39. Fiz quase tudo isso apoiado no Claude, mas sempre busquei entender tudo o que a IA entregava. Em 13/09, por exemplo, mandei ao Claude uma lista com as palavras do nosso próprio projeto que eu e o meu grupo ainda não conhecíamos, como ADR, PWA, i18n, schema e milestone. Na madrugada de 30/09, antes da apresentação, escrevi que estava "boiando sobre o próprio projeto" e pedi ajuda para entender os testes, o PWA, o Leaflet e o lint. Além disso, o registro desse uso ficou incompleto, porque a minha linha no AI-USAGE.md estava num commit do PR #28, que não foi mergeado. Quero manter o hábito de perguntar até entender o que a IA gerou, mas fazendo isso antes de subir o código, e não na véspera da apresentação. Também quero registrar o uso de IA no mesmo PR em que ele acontece.
