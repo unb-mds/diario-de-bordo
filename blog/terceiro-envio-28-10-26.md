@@ -1,0 +1,19 @@
+---
+title: "Feedbacks da release"
+authors:
+tags: [formacao-equipe]
+date: 2027-03-10
+---
+
+
+## Olhando para a release que acabou de ser entregue, o que você diria que funcionou bem e o que não funcionou na sua equipe?
+
+Olhando para a entrega e para a apresentação da Release 1, percebo que preciso cobrar mais o andamento das tarefas e buscar entender por que algumas não foram concluídas dentro da sprint ou sequer chegaram a ser iniciadas. Um dos pontos que não funcionou tão bem foi a delegação das atividades durante as reuniões, principalmente em relação à abertura das issues pelos próprios integrantes. Em alguns casos, as tarefas acabavam não sendo registradas, o que prejudicava a organização e contribuía para que algumas atividades não fossem realizadas durante a semana. Outro problema foi a falta de atas das reuniões. Como não registrávamos adequadamente o que havia sido discutido e definido, muitas vezes era necessário relembrar no canal de comunicação quais eram as tarefas da semana. Percebi também que o ritmo de trabalho aumentou bastante com a proximidade da entrega. Isso mostra que conseguimos nos mobilizar quando necessário, mas precisamos manter essa constância durante toda a sprint, sem depender tanto da pressão do prazo. Apesar desses problemas, acredito que um dos pontos positivos foi o trabalho em conjunto. Cada diretoria (front-end, back-end e banco de dados) contava com duas pessoas, o que permitiu dividir responsabilidades e colaborar na resolução dos problemas. Para a próxima release, acredito que todos os integrantes precisam estar mais atentos aos prazos e acompanhar melhor suas responsabilidades, para que o trabalho seja desenvolvido de forma mais organizada e equilibrada.
+
+## Como o feedback recebido (de colegas, professora, monitoria) tem influenciado o que vocês estão fazendo agora?
+
+Os feedbacks recebidos, principalmente os da professora após a Release 1, nos ajudaram a entender melhor a situação do projeto e a identificar o que precisava ser melhorado. Percebemos que nosso escopo estava muito limitado e que a documentação estava confusa, além de não termos uma arquitetura do projeto bem definida. Esses pontos dificultavam tanto a compreensão do que estávamos desenvolvendo quanto a organização do trabalho. Depois de receber esses feedbacks, reunimos o grupo e começamos a focar na resolução dos principais problemas, especialmente na definição da arquitetura e na tentativa de ampliar o escopo, adicionando mais sites oficiais da UnB para a busca de editais. Acredito que essas orientações foram importantes porque nos ajudaram a enxergar problemas que, durante o desenvolvimento, talvez não estivéssemos percebendo com tanta clareza. Assim, conseguimos direcionar melhor nossos esforços para melhorar não apenas o funcionamento do sistema, mas também a estrutura e a organização do projeto.
+
+## O que mudou, para você, entre o início da disciplina e este momento — tecnicamente e no seu jeito de trabalhar em equipe?
+
+Comparando com o início da disciplina, percebo que o Scrum está sendo aplicado de uma forma melhor. Agora, temos reuniões semanais, registramos as discussões em atas, acompanhamos o que foi feito e definimos as atividades para a semana seguinte. Acredito que a maior mudança aconteceu na organização do grupo e na integração entre os integrantes. Atualmente, todos estão participando mais das reuniões, dando opiniões e propondo soluções para os problemas que surgem. Tecnicamente, também começamos a utilizar novas ferramentas para trabalhar com agentes de IA, que estão ajudando no desenvolvimento e na integração das branches, reduzindo a ocorrência de conflitos. Antes, perdíamos bastante tempo tentando resolver esses problemas, então encontrar formas de melhorar esse processo tem sido importante para o andamento do projeto. Acredito que já conseguimos identificar nossos principais problemas e estamos buscando maneiras de resolvê-los.
