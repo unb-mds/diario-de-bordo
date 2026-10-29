@@ -6,3 +6,6 @@
 
 .claude
 openspec
+
+package-lock.json
+package.json
