@@ -1,0 +1,33 @@
+# Terceira entrada — 17/11/2026
+
+**Autor:** Iuri Capanema Souza Koboldt  
+**Tags:** desenvolvimento-api, refatoracao  
+**Data:** 2026-11-17
+
+## 6. Que responsabilidades técnicas você tem assumido, e como você tem lidado com elas?
+
+Continuei trabalhando na API do MonitoraUnB, principalmente na reorganização do backend e na integração dos códigos relacionados ao SIGAA. 
+Durante esse processo, precisei corrigir imports, ajustar caminhos e testar as funcionalidades para garantir que continuassem funcionando. 
+Tenho procurado realizar as alterações gradualmente para evitar novos problemas.
+
+## 9. O que mudou, para você, entre o início da disciplina e este momento — tecnicamente e no seu jeito de trabalhar em equipe?
+
+No início, minha maior preocupação era entender como desenvolver uma API. 
+Hoje, além de ter mais familiaridade com FastAPI e Git, percebo a importância de manter o código organizado e facilitar o trabalho dos outros integrantes. 
+Também passei a ter mais cuidado com mudanças que podem afetar outras partes do projeto.
+
+## 10. Compare como você está se sentindo nesta etapa com a forma como se sentiu na primeira entrega.
+
+Atualmente, me sinto mais confiante para trabalhar com a API e resolver problemas que surgem durante o desenvolvimento. 
+Apesar de o projeto estar mais complexo, consigo compreender melhor como suas diferentes partes se relacionam e identificar com mais facilidade a origem dos erros.
+
+## 11. Descreva como as decisões técnicas estão sendo tomadas na sua equipe nesta fase — quem decide, como se chega a um consenso.
+
+Algumas decisões têm surgido de conversas entre os integrantes, como a reorganização do backend e a definição das regras para o cálculo do coeficiente dos candidatos. 
+Essas discussões têm ajudado a esclarecer responsabilidades e evitar retrabalho, principalmente nas funcionalidades que dependem de diferentes partes do sistema.
+
+## 12. Que lacunas técnicas ainda te incomodam, e o que você tem feito, ou pretende fazer, a respeito?
+
+Ainda preciso aprofundar meus conhecimentos sobre bancos de dados, scraping do SIGAA e organização de aplicações maiores. 
+Tenho procurado entender melhor essas áreas estudando os códigos existentes e investigando os erros encontrados. 
+Pretendo continuar aprimorando a API e participar da implementação das próximas funcionalidades.
