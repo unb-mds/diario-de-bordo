@@ -40,3 +40,12 @@ Ao longo da disciplina, ganhei muito mais facilidade para trabalhar em equipe, p
 
 ## Compare como você está se sentindo na preparação desta segunda entrega com a forma como se sentiu na primeira.
 Eu estou mais animada pois ao contrário da primeira release em que o objetivo principal do nosso grupo foi entregar os requisitos e o protótipo, nessa planejamos entregar o sistema funcional completo.
+
+## Descreva como as decisões técnicas estão sendo tomadas na sua equipe nesta fase — quem decide, como se chega a um consenso.
+As decisões são tomadas em conjunto. As que afetam o projeto todo, como arquitetura e padrões de código, a gente discute no grupo e nas issues até chegar num acordo. Dentro de cada user story, quem implementa tem autonomia para decidir os detalhes e explica as escolhas no PR. Quando uma mudança mexe na parte de outra pessoa, conversamos antes.
+
+## Que lacunas técnicas ainda te incomodam, e o que você tem feito, ou pretende fazer, a respeito?
+Uma lacuna que ainda me incomoda é a de arquitetura de software. Consigo implementar bem as funcionalidades, mas quero tomar decisões de design com mais confiança, pensando em como o sistema vai crescer e continuar fácil de manter. No projeto isso apareceu, por exemplo, em como guardar o histórico das estatísticas por semestre e em como organizar o código em camadas. Para evoluir, tenho estudado padrões de arquitetura e design de APIs, e pretendo continuar levando essas ideias para as discussões do grupo antes de implementar.
+
+## Reflita sobre toda a disciplina: o que essa experiência te aproximou, ou não, de como você imagina o trabalho profissional em desenvolvimento de software?
+A disciplina me aproximou bastante do trabalho profissional. Percebi que boa parte do trabalho é se organizar com a equipe: escrever issues claras, seguir padrões e revisar PRs. Também vi que muitas decisões técnicas não estão nos requisitos e precisam ser justificadas. O que ainda é diferente do mercado é a falta de tempo, já que o projeto disputa espaço com outras matérias, e o fato de estarmos aprendendo as ferramentas enquanto entregamos.
